@@ -24,6 +24,13 @@ func WithCredential(credential string) ClientOption {
 	}
 }
 
+//WithCredential returns a ClientOption configured with the given credential
+func WithLambda(lambdaToken string) ClientOption {
+	return func(c *Client) {
+		c.header.Set("Authorization", lambdaToken)
+	}
+}
+
 //WithHTTPProxy returns a ClientOption configured with the given http proxy
 func WithHTTPProxy(proxy string) ClientOption {
 	return func(c *Client) {
