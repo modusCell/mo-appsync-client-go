@@ -23,7 +23,7 @@ func TestWithAPIKey(t *testing.T) {
 	tests := []struct {
 		name string
 		args args
-		want PureWebSocketSubscriberOption
+		// want PureWebSocketSubscriberOption
 	}{
 		{
 			name: "WithAPIKey Success",

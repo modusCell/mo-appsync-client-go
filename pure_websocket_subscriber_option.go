@@ -43,3 +43,10 @@ func WithIAM(signer *v4.Signer, region, host string) PureWebSocketSubscriberOpti
 		}{signer, region, host}
 	}
 }
+
+func WithLambda(host, lambdaToken string) PureWebSocketSubscriberOption {
+	return func(p *PureWebSocketSubscriber) {
+		p.header.Set("host", sanitize(host))
+		p.header.Set("Authorization", lambdaToken)
+	}
+}

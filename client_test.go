@@ -37,7 +37,7 @@ func TestQuery(t *testing.T) {
 	if res == nil {
 		t.Fatal("Post returns nil")
 	}
-	if _, ok := api.GetPostedHeader()["x-amz-subscriber-id"]; ok {
+	if _, ok := api.GetPostedHeader()["X-Amz-Subscriber-Id"]; ok {
 		t.Fatalf("GetPostedHeader error: %+v", api)
 	}
 
@@ -68,7 +68,7 @@ func TestQueryAsync(t *testing.T) {
 	if cancel == nil {
 		t.Fatal("PostAsync returns nil")
 	}
-	if _, ok := api.GetPostedHeader()["x-amz-subscriber-id"]; ok {
+	if _, ok := api.GetPostedHeader()["X-Amz-Subscriber-Id"]; ok {
 		t.Fatalf("GetPostedHeader error: %+v", api)
 	}
 
@@ -100,7 +100,7 @@ func TestMutation(t *testing.T) {
 	if res == nil {
 		t.Fatal("Post returns nil")
 	}
-	if _, ok := api.GetPostedHeader()["x-amz-subscriber-id"]; ok {
+	if _, ok := api.GetPostedHeader()["X-Amz-Subscriber-Id"]; ok {
 		t.Fatalf("GetPostedHeader error: %+v", api)
 	}
 
@@ -131,7 +131,7 @@ func TestMutationAsync(t *testing.T) {
 	if cancel == nil {
 		t.Fatal("PostAsync returns nil")
 	}
-	if _, ok := api.GetPostedHeader()["x-amz-subscriber-id"]; ok {
+	if _, ok := api.GetPostedHeader()["X-Amz-Subscriber-Id"]; ok {
 		t.Fatalf("GetPostedHeader error: %+v", api)
 	}
 
@@ -157,7 +157,7 @@ func TestSubscription(t *testing.T) {
 	if client == nil {
 		t.Fatal("NewClient returns nil")
 	}
-	if _, ok := api.GetPostedHeader()["x-amz-subscriber-id"]; ok {
+	if _, ok := api.GetPostedHeader()["X-Amz-Subscriber-Id"]; ok {
 		t.Fatalf("GetPostedHeader error: %+v", api)
 	}
 
@@ -199,7 +199,7 @@ func TestSubscriptionAsync(t *testing.T) {
 	if client == nil {
 		t.Fatal("NewClient returns nil")
 	}
-	if _, ok := api.GetPostedHeader()["x-amz-subscriber-id"]; ok {
+	if _, ok := api.GetPostedHeader()["X-Amz-Subscriber-Id"]; ok {
 		t.Fatalf("GetPostedHeader error: %+v", api)
 	}
 

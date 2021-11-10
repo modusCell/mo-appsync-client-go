@@ -30,7 +30,7 @@ type Subscription struct {
 func NewExtensions(response *graphql.Response) (*Extensions, error) {
 	j, ok := (*response.Extensions).(map[string]interface{})
 	if !ok {
-		return nil, fmt.Errorf("Extensions is invalid")
+		return nil, fmt.Errorf("extensions is invalid")
 	}
 
 	b, err := json.Marshal(j)
