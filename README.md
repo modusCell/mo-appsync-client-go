@@ -1,4 +1,4 @@
-mo-appsync-client-go
+Original repository https://github.com/sony/appsync-client-go
 =================
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/modusCell/mo-appsync-client-go.svg)](https://pkg.go.dev/github.com/modusCell/mo-appsync-client-go)
