@@ -7,12 +7,12 @@ import (
 )
 
 var (
-	testEndpoint       = "dummy"
-	testAPIKey         = "apiKey"
-	testCredential     = "credential"
-	testProxy          = "proxy"
-	testCDID           = "cdid"
-	testCUID           = "cuid"
+	testEndpoint   = "dummy"
+	testAPIKey     = "apiKey"
+	testCredential = "credential"
+	testProxy      = "proxy"
+	// testCDID           = "cdid"
+	// testCUID           = "cuid"
 	testTimeout        = 1 * time.Second
 	testMaxElapsedTime = 2 * time.Second
 )
