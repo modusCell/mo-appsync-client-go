@@ -10,8 +10,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	v4 "github.com/aws/aws-sdk-go/aws/signer/v4"
 	"github.com/k0kubun/pp"
-	appsync "github.com/modusCell/appsync-client-go"
-	"github.com/modusCell/appsync-client-go/graphql"
+	appsync "github.com/modusCell/mo-appsync-client-go"
+	"github.com/modusCell/mo-appsync-client-go/graphql"
 )
 
 type event struct {

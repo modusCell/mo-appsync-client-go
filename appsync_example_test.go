@@ -6,10 +6,10 @@ import (
 	"log"
 	"strings"
 
-	"github.com/modusCell/appsync-client-go/internal/appsynctest"
+	"github.com/modusCell/mo-appsync-client-go/internal/appsynctest"
 
-	appsync "github.com/modusCell/appsync-client-go"
-	"github.com/modusCell/appsync-client-go/graphql"
+	appsync "github.com/modusCell/mo-appsync-client-go"
+	"github.com/modusCell/mo-appsync-client-go/graphql"
 )
 
 func ExampleClient_Post_query() {

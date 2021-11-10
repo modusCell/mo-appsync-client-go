@@ -1,9 +1,9 @@
-appsync-client-go
+mo-appsync-client-go
 =================
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/modusCell/appsync-client-go.svg)](https://pkg.go.dev/github.com/modusCell/appsync-client-go)
-[![Job Status](https://inspecode.rocro.com/badges/github.com/modusCell/appsync-client-go/status?token=VN4s0UD-m44_nY-nP0kSWRE3aVQiTg4UY2oTpm8r_Zc&branch=master)](https://inspecode.rocro.com/jobs/github.com/modusCell/appsync-client-go/latest?completed=true&branch=master)
-[![Report](https://inspecode.rocro.com/badges/github.com/modusCell/appsync-client-go/report?token=VN4s0UD-m44_nY-nP0kSWRE3aVQiTg4UY2oTpm8r_Zc&branch=master)](https://inspecode.rocro.com/reports/github.com/modusCell/appsync-client-go/branch/master/summary)
+[![Go Reference](https://pkg.go.dev/badge/github.com/modusCell/mo-appsync-client-go.svg)](https://pkg.go.dev/github.com/modusCell/mo-appsync-client-go)
+[![Job Status](https://inspecode.rocro.com/badges/github.com/modusCell/mo-appsync-client-go/status?token=VN4s0UD-m44_nY-nP0kSWRE3aVQiTg4UY2oTpm8r_Zc&branch=master)](https://inspecode.rocro.com/jobs/github.com/modusCell/mo-appsync-client-go/latest?completed=true&branch=master)
+[![Report](https://inspecode.rocro.com/badges/github.com/modusCell/mo-appsync-client-go/report?token=VN4s0UD-m44_nY-nP0kSWRE3aVQiTg4UY2oTpm8r_Zc&branch=master)](https://inspecode.rocro.com/reports/github.com/modusCell/mo-appsync-client-go/branch/master/summary)
 
 
 [AWS AppSync](https://aws.amazon.com/jp/appsync/) Go client library
@@ -21,16 +21,16 @@ Getting Started
 ### Installation
 
 ```
-$ go get github.com/modusCell/appsync-client-go
+$ go get github.com/modusCell/mo-appsync-client-go
 ```
 
 ### Example
 
-See [example](https://github.com/modusCell/appsync-client-go/blob/master/appsync_example_test.go).
+See [example](https://github.com/modusCell/mo-appsync-client-go/blob/master/appsync_example_test.go).
 
 
 License
 ---------
 This library is distributed under [The MIT license](https://opensource.org/licenses/MIT). 
-See [LICENSE](https://github.com/modusCell/appsync-client-go/blob/master/LICENSE) and
-[NOTICE](https://github.com/modusCell/appsync-client-go/blob/master/NOTICE) for more information.
+See [LICENSE](https://github.com/modusCell/mo-appsync-client-go/blob/master/LICENSE) and
+[NOTICE](https://github.com/modusCell/mo-appsync-client-go/blob/master/NOTICE) for more information.

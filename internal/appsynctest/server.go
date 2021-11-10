@@ -14,7 +14,7 @@ import (
 	"github.com/gorilla/websocket"
 	graphqlgo "github.com/graph-gophers/graphql-go"
 	"github.com/graph-gophers/graphql-go/relay"
-	"github.com/modusCell/appsync-client-go/graphql"
+	"github.com/modusCell/mo-appsync-client-go/graphql"
 )
 
 var (

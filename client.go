@@ -9,7 +9,7 @@ import (
 	"time"
 
 	v4 "github.com/aws/aws-sdk-go/aws/signer/v4"
-	"github.com/modusCell/appsync-client-go/graphql"
+	"github.com/modusCell/mo-appsync-client-go/graphql"
 )
 
 // Client is the AppSync GraphQL API client

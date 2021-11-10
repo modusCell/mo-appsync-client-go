@@ -1,4 +1,4 @@
-module github.com/modusCell/appsync-client-go
+module github.com/modusCell/mo-appsync-client-go
 
 go 1.14
 

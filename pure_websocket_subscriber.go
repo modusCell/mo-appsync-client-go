@@ -15,7 +15,7 @@ import (
 	"github.com/cenkalti/backoff"
 	"github.com/google/uuid"
 	"github.com/gorilla/websocket"
-	"github.com/modusCell/appsync-client-go/graphql"
+	"github.com/modusCell/mo-appsync-client-go/graphql"
 )
 
 type message struct {
