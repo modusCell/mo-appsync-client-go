@@ -13,6 +13,14 @@ type Response struct {
 	Extensions *interface{}   `json:"extensions"`
 }
 
+// Response represents a generic GraphQL response body.
+type SubscriptionResponse struct {
+	// StatusCode *int           `json:"statusCode"`
+	Data       interface{}    `json:"data"`
+	Errors     *[]interface{} `json:"errors"`
+	Extensions *interface{}   `json:"extensions"`
+}
+
 // DataAs converts Response.Data to the specified struct
 func (r *Response) DataAs(v interface{}) error {
 	m, ok := r.Data.(map[string]interface{})
