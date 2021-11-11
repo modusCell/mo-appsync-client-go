@@ -37,3 +37,20 @@ func (r *Response) DataAs(v interface{}) error {
 	}
 	return fmt.Errorf("data is invalid")
 }
+
+// DataAs converts Response.Data to the specified struct
+func (rr *SubscriptionResponse) DataAss(v interface{}) error {
+	m, ok := rr.Data.(map[string]interface{})
+	if !ok {
+		return fmt.Errorf("data is invalid")
+	}
+	if len(m) != 1 {
+		return fmt.Errorf("the data is not exist")
+	}
+	for _, value := range m {
+		if b, err := json.Marshal(value); err == nil {
+			return json.Unmarshal(b, v)
+		}
+	}
+	return fmt.Errorf("data is invalid")
+}
